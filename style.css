@@ -1,0 +1,21 @@
+*
+.col-1{
+    background-color: #7b2cbf;}
+
+.col-1{
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+      }
+      
+@keyframes example {
+        0%   {background-color:#f72585; left:0px; top:0px;}
+        25%  {background-color:#b5179e; left:200px; top:0px;}
+        50%  {background-color:#3a86ff; left:200px; top:200px;}
+        75%  {background-color:#d08c60; left:0px; top:200px;}
+        100% {background-color:#b392ac; left:0px; top:0px;}
+      }
